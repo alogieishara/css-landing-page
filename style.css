@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
 }
+
 .header-wrapper, .hero-wrapper {
     display:flex;
     background-color: #1F2937;
@@ -117,4 +118,98 @@
 span {
     width: 150px;
     text-align: center;
+}
+
+.quote-wrapper {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.action-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    width:100%;
+    background-color: #3882F6;
+    border-radius: 12px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.action-sub {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.action-button {
+    color: #E5E7EB;
+    outline: 3px solid #E5E7EB;
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    max-width: 160px;
+    border-radius: 8px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 300;
 }
